@@ -35,6 +35,7 @@ println("User is here $userExists")
 
 
     //login
+    @RequestMapping(value = "/login", method = [RequestMethod.POST])
     fun login(){
 
     }
